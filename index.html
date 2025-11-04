@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kirin Fantasy</title>
 
-    <!-- ฟอนต์แฟนตาซี -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <style>
@@ -47,11 +46,12 @@
             max-width: 700px;
             margin: 30px auto;
             font-size: 1.1em;
-            line-height: 1.7;
+            line-height: 1.8;
             background: rgba(255, 255, 255, 0.15);
-            padding: 15px 25px;
+            padding: 20px 30px;
             border-radius: 15px;
             backdrop-filter: blur(5px);
+            text-align: left;
         }
 
         img {
@@ -101,10 +101,10 @@
             document.body.appendChild(leaf);
 
             // สุ่มตำแหน่ง ความเร็ว ขนาด และ delay
-            const left = Math.random() * 100;          // ตำแหน่งแนวนอน
-            const size = Math.random() * 20 + 16;      // ขนาด 16px - 36px
-            const duration = Math.random() * 10 + 8;   // ความเร็ว 8s - 18s
-            const delay = Math.random() * 5;           // หน่วงเวลาเริ่ม
+            const left = Math.random() * 100;
+            const size = Math.random() * 20 + 16;
+            const duration = Math.random() * 10 + 8;
+            const delay = Math.random() * 5;
 
             leaf.style.left = `${left}%`;
             leaf.style.fontSize = `${size}px`;
@@ -116,10 +116,10 @@
     <img src="image.png" alt="Kirin">
     <h1>Kirin</h1>
     <p>
-        Kirin were magical mythical creatures from ancient China, Japan, and Korea. 
-        They were peaceful and wise with shining golden scales, the body of a deer, and a horn rising from their heads. 
-        Kirin were said to appear only in times of great peace and when a just ruler was born. 
-        People believed that seeing a kirin would bring good fortune and harmony to the land.
+        • <b>Name:</b> Kirin<br>
+        • <b>Origin:</b> Kirin is a mythical creature from ancient China, Japan, and Korea. It is known as a symbol of peace, wisdom, and good fortune.<br>
+        • <b>Appearance:</b> Kirin has the body of a deer, the tail of an ox, the hooves of a horse, and one horn on its head. Its golden scales shine brightly, making it look very graceful.<br>
+        • <b>Characteristics:</b> Kirin is gentle, kind, and wise. It never harms any living creature and only appears during peaceful times or when a fair and just ruler is born.
     </p>
 </body>
 </html>
